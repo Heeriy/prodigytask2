@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+background-color: white;
+
+}
+#myH1 {
+    font-size: 4rem;
+    font-family: "Arial" , sans-serif;
+    color: brown;
+
+}
+
+
+#display {
+font-size: 5em;
+font-family: monospace; 
+font-weight: bold;
+color: rgb(226, 43, 134);
+margin-bottom: 25px;
+
+
+
+}
+
+button {
+    font-weight: bold;
+    min-width: 125px;
+margin: 5px;
+padding: 10px 20px;
+font-size: 1em;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+color: white;
+
+
+}
+
+
+
+
+#startBtn{
+    background-color: chartreuse;
+}
+
+#startBtn:hover {
+    background-color: chartreuse;
+}
+
+
+#stopBtn{
+    background-color: rgb(255, 0, 0);
+}
+#stopBtn:hover {
+    background-color: rgb(255, 0, 8);
+}
+
+
+#resetBtn{
+    background-color: rgb(51, 0, 255);
+}
+#resetBtn:hover {
+    background-color: rgb(17, 0, 255);
+}
